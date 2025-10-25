@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/king.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap"
+      rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+
+    <!-- CSS الخاص بالمشروع -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Animate.css (لازم عشان WOW.js يشتغل) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- مكتبة WOW.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- // animatecss -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav
+      class="d-flex justify-content-between align-items-center p-2 shadow p-3 mb-5 fixed-top">
+      <a href="/index.html">
+        <span>
+          <img src="./assets/imgs/logo kemet.png" alt="logo" />
+        </span>
+      </a>
+      <div class="links d-none d-lg-flex justify-content-center gap-5">
+        <a class="shadow p-2 rounded text-decoration-none" href="./index.html"
+          >اكتشف كِمِت <span class="fw-bold hiero">𓆎𓅓𓏏𓊖</span>
+        </a>
+        <a class="shadow p-2 rounded text-decoration-none" href="#"
+          >عروش كِمِت <span class="fw-bold hiero">𓇅𓆎𓅓𓏏𓊖</span></a
+        >
+        <a class="shadow p-2 rounded text-decoration-none" href="#"
+          >كنوز كِمِت <span class="fw-bold hiero">𓋞𓆎𓅓𓏏𓊖 </span>
+        </a>
+      </div>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        class="d-lg-none cursor-pointer"
+        role="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasMenu"
+        aria-controls="offcanvasMenu">
+        <path
+          d="M3 8h18a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2m18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2m0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2" />
+      </svg>
+    </nav>
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasMenu"
+      aria-labelledby="offcanvasLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLabel">القائمة</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="list-unstyled">
+          <li>
+            <a
+              href="./home.html"
+              class="text-decoration-none text-muted d-block mb-2"
+              >الصفحة الرئيسيه</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-muted d-block mb-2"
+              >المعابد</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-muted d-block mb-2"
+              >المواقع</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <main>
+      <div class="content">
+        <h1>عروش كِمِت: مجد الحكم وسحر الحضارة</h1>
+        <p>
+          في زمان بعيد، قبل ما تُكتب الحكايات بالحبر، كانت تُحفر بالعظمة على
+          العروش. هناك، في قلب كِمِت، جلس ملوك ظنّ الناس أنهم أبناء الآلهة… يحيط
+          بهم البخور، والذهب، وأصوات الكهنة التي تهمس بأسرار الأبدية. كل عرش كان
+          له قصة… عرش بُني للعدل، وآخر للغزو، وثالث خُلد باسم ملكٍ لا يزول ذكره.
+          تعالى نرجع سوا لزمن الملوك والعروش، ونكتشف سحر كِمِت اللي ما زال بينقش
+          حضارته في قلوبنا لحد النهارده.
+        </p>
+      </div>
+      <div class="layer"></div>
+    </main>
+
+    <div class="king-one card mb-3 mt-5">
+  <div class="row ">
+    <div class="col-md-4 img-king">
+      <img src="/assets/imgs/khfo.jpg" class="img-fluid" alt="الملك خوفو" />
+    </div>
+    <div class="col-md-8">
+      <div class="card-body content-king">
+        <div class="layer"></div>
+
+        <h4 class="card-title">👑 الملك خوفو – باني الهرم الأكبر</h4>
+        <p class="card-text">
+          في فجر الحضارة، جلس الملك خوفو على عرشه يتأمل أفق كيميت، ورأى أن
+          المجد لا يُورّث، بل يُبنى حجرًا فوق حجر. فأمر ببناء صرحٍ يلامس السماء،
+          الهرم الأكبر، ليكون شاهدًا على عبقرية المصريين، ورمزًا لملكٍ آمن أن
+          الخلود يصنعه الإنسان بنفسه.
+        </p>
+
+        <h4>من هو خوفو</h4>
+        <ul>
+          <li>هو الابن الأكبر للملك سنفرو والملكة حتب حرس.</li>
+          <li>تولّى الحكم بعد وفاة والده لمدة تتراوح بين 23 إلى 30 سنة.</li>
+          <li>لقبه الفرعوني “خنوم-خوفو” أي: الإله خنوم يحميني.</li>
+        </ul>
+
+        <h4>أشهر إنجازاته</h4>
+        <ul>
+          <li>بنى الهرم الأكبر بالجيزة – إحدى عجائب الدنيا السبع القديمة.</li>
+          <li>مثّل قمّة الإبداع في الهندسة المعمارية المصرية القديمة.</li>
+          <li>ارتفاعه الأصلي كان 146 متر، وظل أطول مبنى في العالم 3800 سنة.</li>
+          <li>شارك في تصميمه المهندس العبقري حم إيونو.</li>
+        </ul>
+
+        <a href="#" class="btn btn-warning mt-3">اعرف المزيد</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--  Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--  مشروعك -->
+    <script src="./assets/js/main.js"></script>
+
+    <!--  AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        easing: "ease-in-out",
+        mirror: false,
+      });
+    </script>
+  </body>
+</html>
